@@ -29,6 +29,6 @@ Além dos campos obrigatórios, o "Jogador" pode informar:
 
 ## Desafio Do Projeto
 
-Iremos automatizar utilizando o framework cypress, todas as funcionalidades da aplicação, além de configurar um pipeline de integração contínua que executa tais testes sempre que mudanças forem enviadas ao GitHub.
+Iremos automatizar, utilizando o framework cypress, todas as funcionalidades da aplicação, além de configurar um pipeline de integração contínua que executa tais testes sempre que mudanças forem enviadas ao GitHub.
 
 Lembrem-se: "A melhor maneira de melhorar suas habilidades de codificação e técnicas de testes, é compartilhando seu conhecimento e ajudando outras pessoas. Forte abraço! 🧑‍🏫
