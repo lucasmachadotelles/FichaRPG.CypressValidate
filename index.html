@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Novo Jogador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ficha de Novo Jogador</h1>
+        <form id="jogadorForm">
+            <div class="form-group">
+                <label for="nome-personagem">Nome do Personagem:</label>
+                <input type="text" id="nome-personagem" class="required">
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="text" id="idade" class="required">
+            </div>
+            <div class="form-group">
+                <label for="classe">Classe:</label>
+                <input type="text" id="classe" class="required">
+            </div>
+            <div class="form-group">
+                <label for="nome-jogador">Nome do Jogador:</label>
+                <input type="text" id="nome-jogador" class="required">
+            </div>
+            <div class="form-group">
+                <label for="altura">Altura:</label>
+                <input type="text" id="altura">
+            </div>
+            <div class="form-group">
+                <label for="peso">Peso:</label>
+                <input type="text" id="peso">
+            </div>
+            <div class="form-group">
+                <label for="antecedentes">Antecedentes:</label>
+                <input type="text" id="antecedentes">
+            </div>
+            <div class="form-group">
+                <label for="anexo">Anexo:</label>
+                <input type="file" id="anexo">
+            </div>
+            <div class="form-group">
+                <button type="button" id="salvar">Salvar</button>
+            </div>
+        </form>
+        <div id="mensagem"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
